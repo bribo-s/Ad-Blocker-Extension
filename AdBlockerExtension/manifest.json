@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "Ad Blocker",
+    "version": "1.0",
+    "description": "A simple ad blocker for Chrome.",
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "declarative_net_request": {
+      "rule_resources": [{
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }]
+    },
+    "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "css": ["content.css"],
+    "js": ["content.js"]
+  }
+],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon150.png",
+        "48": "icon150.png",
+        "128": "icon150.png"
+      }
+    },
+    "icons": {
+      "16": "icon150.png",
+      "48": "icon150.png",
+      "128": "icon150.png"
+    }
+  }
+  
+  

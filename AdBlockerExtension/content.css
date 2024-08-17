@@ -1,0 +1,13 @@
+/* Hide common ad containers */
+iframe[src*="ads"], 
+div[class*="ad"], 
+div[id*="ad"], 
+div[class*="sponsored"], 
+div[id*="sponsored"] {
+    display: none !important;
+}
+
+/* Hide promoted posts on social media */
+div[data-testid="placementTracking"] {
+    display: none !important;
+}
