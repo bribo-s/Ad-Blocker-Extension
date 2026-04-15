@@ -41,7 +41,7 @@ Ad Blocker is a lightweight Chrome extension built with JavaScript, HTML, and CS
 - `AdBlockerExtension/popup.css` - Popup styling
 - `AdBlockerExtension/popup.js` - Popup status handling
 
-## Resume-Ready Summary
+## Summary
 
 - Created a Chrome extension that reduces intrusive ads and improves browsing experience
 - Developed ad-blocking logic to detect and remove banners, pop-ups, and video-style ad containers
