@@ -1,0 +1,18 @@
+iframe[src*="ads"],
+iframe[src*="doubleclick"],
+iframe[src*="googlesyndication"],
+div[class*="ad-"],
+div[id*="ad-"],
+div[class*="advert"],
+div[id*="advert"],
+div[class*="sponsored"],
+div[id*="sponsored"],
+aside[aria-label*="Sponsored"],
+[data-ad],
+[data-ad-container],
+[data-testid="placementTracking"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
