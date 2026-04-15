@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ad Blocker</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <p class="eyebrow">Chrome Extension</p>
+      <h1>Ad Blocker</h1>
+      <p class="status">Protection is active for your current tab.</p>
+      <section class="card">
+        <div>
+          <p class="label">Engine</p>
+          <p class="value">Static + dynamic filters</p>
+        </div>
+        <div>
+          <p class="label">Page cleanup</p>
+          <p class="value" id="pageStatus">Scanning this tab...</p>
+        </div>
+      </section>
+      <ul class="highlights">
+        <li>Blocks common ad networks</li>
+        <li>Removes banners and pop-up overlays</li>
+        <li>Lightweight Manifest V3 setup</li>
+      </ul>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
