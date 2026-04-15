@@ -28,18 +28,18 @@ Ad Blocker is a lightweight Chrome extension built with JavaScript, HTML, and CS
 2. Open `chrome://extensions/` in Chrome.
 3. Enable **Developer mode**.
 4. Click **Load unpacked**.
-5. Select the extension project folder.
+5. Select the `AdBlockerExtension/` folder.
 
 ## Project Structure
 
-- `manifest.json` - Extension configuration
-- `background.js` - Dynamic blocking rules and badge updates
-- `content.js` - DOM cleanup logic for ads and pop-ups
-- `content.css` - CSS rules for hiding common ad containers
-- `rules.json` - Static declarative network request rules
-- `popup.html` - Popup layout
-- `popup.css` - Popup styling
-- `popup.js` - Popup status handling
+- `AdBlockerExtension/manifest.json` - Extension configuration
+- `AdBlockerExtension/background.js` - Dynamic blocking rules and badge updates
+- `AdBlockerExtension/content.js` - DOM cleanup logic for ads and pop-ups
+- `AdBlockerExtension/content.css` - CSS rules for hiding common ad containers
+- `AdBlockerExtension/rules.json` - Static declarative network request rules
+- `AdBlockerExtension/popup.html` - Popup layout
+- `AdBlockerExtension/popup.css` - Popup styling
+- `AdBlockerExtension/popup.js` - Popup status handling
 
 ## Resume-Ready Summary
 

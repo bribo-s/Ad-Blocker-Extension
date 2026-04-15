@@ -1,13 +1,18 @@
-/* Hide common ad containers */
-iframe[src*="ads"], 
-div[class*="ad"], 
-div[id*="ad"], 
-div[class*="sponsored"], 
-div[id*="sponsored"] {
-    display: none !important;
-}
-
-/* Hide promoted posts on social media */
-div[data-testid="placementTracking"] {
-    display: none !important;
+iframe[src*="ads"],
+iframe[src*="doubleclick"],
+iframe[src*="googlesyndication"],
+div[class*="ad-"],
+div[id*="ad-"],
+div[class*="advert"],
+div[id*="advert"],
+div[class*="sponsored"],
+div[id*="sponsored"],
+aside[aria-label*="Sponsored"],
+[data-ad],
+[data-ad-container],
+[data-testid="placementTracking"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
